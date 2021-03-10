@@ -36,7 +36,7 @@ In order to test the service, you need a Github account, Github Organisation, Or
 
 5. Start ngork by giving following commands :
 `ngrok authtoken <authtoken from ngork account>`
-'ngrok http 8080 <<8080 unless you choose another port>>'
+`ngrok http 8080 <<8080 unless you choose another port>>`
 Copy the url which you get when you start it .
 
 6. Create an organisation on your Github account
