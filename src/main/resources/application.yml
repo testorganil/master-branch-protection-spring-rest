@@ -1,0 +1,25 @@
+BRANCH:
+  PROTECTION:
+    NOTIFICATION:
+      RECEIVER: '' #update owner name 
+GITHUB:
+  BRANCH:
+    PROTECTION:
+      TOKEN:  #update personal access token
+github:
+  branch:
+    default:
+      protection:
+        Restriction:
+          apps: ''
+          teams: ''
+          users: ''
+        dismissalRestriction:
+          teams: ''
+          users: ''
+        enforceAdmin: false
+        pullRequestReviews:
+          count: 1
+        statusCheck:
+          contexts: default-context
+          strict: true
